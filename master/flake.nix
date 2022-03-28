@@ -11,7 +11,6 @@
   inputs.src-timerpool-master.ref   = "refs/heads/master";
   inputs.src-timerpool-master.owner = "mikra01";
   inputs.src-timerpool-master.repo  = "timerpool";
-  inputs.src-timerpool-master.dir   = "";
   inputs.src-timerpool-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
